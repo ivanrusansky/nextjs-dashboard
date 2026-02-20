@@ -1,5 +1,9 @@
 {
+  "name": "nextjs-dashboard",
   "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
