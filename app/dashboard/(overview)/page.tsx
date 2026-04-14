@@ -1,4 +1,9 @@
+import { Metadata } from 'next';
 import CardWrapper from '@/app/ui/dashboard/cards';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 import { Suspense } from 'react';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import {

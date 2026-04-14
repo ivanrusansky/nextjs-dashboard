@@ -1,4 +1,9 @@
+import { Metadata } from 'next';
 import Form from '@/app/ui/invoices/create-form';
+
+export const metadata: Metadata = {
+  title: 'Create Invoice',
+};
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import { fetchCustomers } from '@/app/lib/data';
  

@@ -1,4 +1,9 @@
+import { Metadata } from 'next';
 import AcmeLogo from '@/app/ui/acme-logo';
+
+export const metadata: Metadata = {
+  title: 'Login',
+};
 import LoginForm from '@/app/ui/login-form';
 import { Suspense } from 'react';
  
